@@ -1,16 +1,16 @@
-#Manturov's Trading House
+# Manturov's Trading House
 
-###Database creation
+### Database creation
 ```bigquery
 CREATE DATABASE trading_house;
 ```
 
-###Schema creation
+### Schema creation
 ```bigquery
 CREATE SCHEMA trading;
 ```
 
-###Tables creation
+### Tables creation
 ```bigquery
 CREATE TABLE goods_group (
     group_id integer PRIMARY KEY NOT NULL,
